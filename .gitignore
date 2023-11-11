@@ -1,0 +1,22 @@
+# Dossiers
+node_modules/
+build/
+dist/
+coverage/
+server/node_modules/
+client/build/
+client/node_modules/
+
+# Fichiers de configuration
+*.config.js
+
+# Fichiers temporaires
+*.tmp
+
+#Windows
+Thumbs.db
+Desktop.ini
+
+# Fichiers de sauvegarde pour les éditeurs de texte
+*.bak
+*.swp
