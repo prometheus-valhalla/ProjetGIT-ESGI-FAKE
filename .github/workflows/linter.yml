@@ -1,6 +1,15 @@
 name : Linter
+on:
+  push:
+    branches:
+      - main
 
-run : |
-    ./lint.sh
-
-shell: bash
+jobs:
+    Explore-GitHub-Actions:
+        runs-on: ubuntu-latest
+        steps:
+        
+           
+        
+            - name: Run Linter
+              run: ./lint.sh
