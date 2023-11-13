@@ -1,0 +1,6 @@
+name : Linter
+
+run : |
+    ./lint.sh
+
+shell: bash
