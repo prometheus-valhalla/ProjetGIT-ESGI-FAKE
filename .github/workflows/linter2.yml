@@ -8,7 +8,11 @@ jobs:
     Explore-GitHub-Actions:
         runs-on: ubuntu-latest
         steps:
-        
+            - name: Checkout Repository
+              uses: actions/checkout@v2
+
+            - name: Make lint.sh executable
+              run: chmod +x lint.sh
            
         
             - name: Run Linter
