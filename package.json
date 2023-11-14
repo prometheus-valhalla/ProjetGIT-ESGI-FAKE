@@ -8,7 +8,7 @@
     "rules": {}
   },
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky install && npm install",
     "lint": "node_modules/.bin/eslint ."
   }
 }
