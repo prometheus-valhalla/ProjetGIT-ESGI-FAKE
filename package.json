@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "husky": "^8.0.3"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "rules": {}
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "node_modules/.bin/eslint ."
+  }
+}
